@@ -14,7 +14,7 @@ $(document).ready(function () {
         $(`<img src="${enderecoDaNovaImagem}"/>`).appendTo(novoItem) // cria a tag html <img> que recebe a variável e envia para dentro da <li> através da variável novoItem
         $(`
             <div class="overlay-imagem-link">
-                <a href="${enderecoDaNovaImagem}" target="_blank" title="Ver imagem em tamanho real"
+                <a href="${enderecoDaNovaImagem}" target="_blank" title="Ver imagem em tamanho real">
                     Ver imagem em tamanho real
                 </a>
             </div>
